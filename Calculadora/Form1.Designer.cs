@@ -326,6 +326,7 @@
             this.label1.Location = new System.Drawing.Point(12, 54);
             this.label1.Multiline = true;
             this.label1.Name = "label1";
+            this.label1.ReadOnly = true;
             this.label1.Size = new System.Drawing.Size(318, 45);
             this.label1.TabIndex = 26;
             this.label1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;

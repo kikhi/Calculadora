@@ -35,165 +35,53 @@ namespace Calculadora
 
         private void button9_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "0";
-                label2.Text += "0";*/
-                label1.Text += button9.Text;
-            }
-            else
-            {
-                /*label1.Text = "0";
-                label2.Text += "0";*/
-                label1.Text += button9.Text;
-            }
+            label1.Text = label1.Text + "0";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "1";
-                label2.Text += "1";*/
-                label1.Text = button6.Text;
-            }
-            else
-            {
-                /*label1.Text = "1";
-                label2.Text += "0";*/
-                label1.Text = button6.Text;
-            }
+            label1.Text = label1.Text + "1";
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "2";
-                label2.Text += "2";*/
-                label1.Text = button10.Text;
-            }
-            else
-            {
-                /*label1.Text = "2";
-                label2.Text += "2";*/
-                label1.Text = button10.Text;
-            }
+            label1.Text = label1.Text + "2";
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "3";
-                label2.Text += "3";*/
-                label1.Text = button13.Text;
-            }
-            else
-            {
-                /*label1.Text = "3";
-                label2.Text += "3";*/
-                label1.Text = button13.Text;
-            }
+            label1.Text = label1.Text + "3";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "4";
-                label2.Text += "4";*/
-                label1.Text = button7.Text;
-            }
-            else
-            {
-                /*label1.Text = "4";
-                label2.Text += "4";*/
-                label1.Text = button7.Text;
-            }
+            label1.Text = label1.Text + "4";
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "5";
-                label2.Text += "5";*/
-                label1.Text = button11.Text;
-            }
-            else
-            {
-                /*label1.Text = "5";
-                label2.Text += "5";*/
-                label1.Text = button11.Text;
-            }
+            label1.Text = label1.Text + "5";
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
 
-            if (label1.Text != "0")
-            {
-                //label1.Text += "6";
-                //label2.Text += "6";
-                label1.Text = button14.Text ;
-
-            }
-            else
-            {
-                //label1.Text = "6";
-                //label2.Text += "6";
-
-                label1.Text =  button14.Text ;
-            }
+            label1.Text = label1.Text + "6";
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "7";
-                label2.Text += "7";*/
-                label1.Text = button7.Text;
-            }
-            else
-            {
-                /*label1.Text = "7";
-                label2.Text += "7";*/
-                label1.Text = button7.Text;
-            }
+            label1.Text = label1.Text + "7";
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "8";
-                label2.Text += "8";*/
-                label1.Text = button12.Text;
-            }
-            else
-            {
-                /*label1.Text = "8";
-                label2.Text += "8";*/
-                label1.Text = button12.Text;
-            }
+            label1.Text = label1.Text + "8";
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            if (label1.Text != "0")
-            {
-                /*label1.Text += "9";
-                label2.Text += "9";*/
-                label1.Text = button15.Text;
-            }
-            else
-            {
-                /*label1.Text = "9";
-                label2.Text += "9";*/
-                label1.Text = button15.Text;
-            }
+            label1.Text = label1.Text + "9";
         }
         public int op;
         private void button20_Click(object sender, EventArgs e)
